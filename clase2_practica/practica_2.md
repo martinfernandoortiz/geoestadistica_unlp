@@ -121,7 +121,15 @@ The ratio of between to total sum of squares:	0.433053
 
 
 2. Graficar el resultado del inciso anterior en un gr´afico de “burbuja”. Repetir este ejercicio para 5 y 10 grupos.
+
+![imagen](https://github.com/martinfernandoortiz/geoestadistica_unlp/assets/38224115/4ed200cd-b8f8-4d77-a77e-5715e8064169)
+
+
+
 3. Graficar el resultado del inciso anterior espacialmente. ¿Es posible encontrar alg´un tipo de relaci´on espacial entre datos de los mismos clusters?
-4. Explicar el concepto de inercia o dispersi´on intracluster.
+4. 
+Si, es posible dado que probablemente las condiciones de agrupamiento tienen similitudes geográficas
+5. 
+6. Explicar el concepto de inercia o dispersi´on intracluster.
 
 
