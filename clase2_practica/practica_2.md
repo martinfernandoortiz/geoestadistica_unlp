@@ -1,9 +1,11 @@
 
 <h4>Análisis de componentes principales (PCA)</h4>
 
-1. ¿Cuántas componentes principales (PC) rescatan individualmente una heterogeneidad original mayor al 20%?
-Solo un componente (0.464696)
+1. ¿Cuántas componentes principales (PC) rescatan individualmente una heterogeneidad original mayor al 20%? 
+
+Solo un componente (0.464696) 
 * Proportion of variance:
+  
 0.464696 0.182729 0.120076 0.093621 0.064423 0.048748 0.015107 0.008771 0.001829 
 
 2. ¿Cuánta PCs en explican en conjunto, una heterogeneidad original mayor al (i) ∼ 70, (ii) 80, (iii) 90 y (iv) 95%, respectivamente ?
@@ -13,6 +15,7 @@ Solo un componente (0.464696)
 95% 5
 
 *Cumulative proportion:
+
 0.464696 0.647425 0.767501 0.861122 0.925545 0.974294 0.989400 0.998171 1.000000 
 
 3. Seleccionar dos variables originales que mejor se correlacionen con las PC1, 2 y 3 (con cada PC por separado). Indicar el valor del
@@ -34,7 +37,18 @@ Squared correlations:
 
 PC1 Temperatura_(C)   0.862887  Temperatura_minima_(C) 0.859054
 
+![imagen](https://github.com/martinfernandoortiz/geoestadistica_unlp/assets/38224115/b37c6ddd-0e7f-47e4-af29-0a3a62947a83)
+
+
 
 PC2 Nubosidad_total_(octavos) 0.438707 Altura_(m)  0.378022
+
+![imagen](https://github.com/martinfernandoortiz/geoestadistica_unlp/assets/38224115/f43f211a-5934-44fe-a1ba-a4dddb9c7951)
+
+
+
 PC3 Humedad_relativa_(%) 0.436318 Velocidad_del_Viento_(km/h) 0.436487
+
+![imagen](https://github.com/martinfernandoortiz/geoestadistica_unlp/assets/38224115/6e461725-e495-40b2-9eaa-375ff91cb947)
+
 
