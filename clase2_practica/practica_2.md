@@ -52,3 +52,71 @@ PC3 Humedad_relativa_(%) 0.436318 Velocidad_del_Viento_(km/h) 0.436487
 ![imagen](https://github.com/martinfernandoortiz/geoestadistica_unlp/assets/38224115/6e461725-e495-40b2-9eaa-375ff91cb947)
 
 
+<h4>K-mean cluster</h4>
+1. Encontrar la cantidad ´optima de grupos en base a criterio del codo. Considerar que:
+
+total sum of squares = total sum within clusters + between clust
+
+
+<h4>Cluster centers: </h4>
+
+|  |Altura_(m)|Temperatura_(C)|Temperatura_maxima_(C)|Temperatura_minima_(C)|Humedad_relativa_(%)|Velocidad_del_Viento_(km/h)|Nubosidad_total_(octavos)|Precipitacion_(mm)|Frecuencia_dias_Precipitacion_>0.1_mm|
+|--|----------|---------------|----------------------|----------------------|--------------------|---------------------------|-------------------------|------------------|-------------------------------------|
+|C1|226.453   |21.5866        |28.1366               |15.7884               |69.6032             |9.2282                     |3.58779                  |118.262           |8.78663                              |
+|C2|184.434   |10.8605        |16.9758               |5.30107               |72.6719             |12.4409                    |4.13096                  |42.2655           |6.33879                              |
+|C3|814.209   |15.2607        |23.0105               |8.44136               |57.0047             |8.57068                    |3.15236                  |17.7728           |3.39791                              |
+|C4|9.5       |-3.825         |-0.766667             |-7.02917              |0                   |21.325                     |6.49583                  |0                 |0                                    |
+
+The total sum of squares:	7551
+
+Within-cluster sum of squares:
+|  |Within cluster S.S.|
+|--|-------------------|
+|C1|1203.55            |
+|C2|1072.42            |
+|C3|1209.88            |
+|C4|45.2076            |
+
+The total within-cluster sum of squares:	3531.06
+
+The between-cluster sum of squares:	4019.94
+
+The ratio of between to total sum of squares:	0.532372
+
+
+
+<h4> Number of clusters:	3 </h4>
+
+Cluster centers:
+|  |Altura_(m)|Temperatura_(C)|Temperatura_maxima_(C)|Temperatura_minima_(C)|Humedad_relativa_(%)|Velocidad_del_Viento_(km/h)|Nubosidad_total_(octavos)|Precipitacion_(mm)|Frecuencia_dias_Precipitacion_>0.1_mm|
+|--|----------|---------------|----------------------|----------------------|--------------------|---------------------------|-------------------------|------------------|-------------------------------------|
+|C1|439.009   |11.7071        |18.453                |5.74019               |67.1574             |11.2099                    |3.80851                  |31.2544           |5.12411                              |
+|C2|253.28    |21.4766        |28.088                |15.5344               |68.3069             |9.07277                    |3.52697                  |108.735           |8.35954                              |
+|C3|9.5       |-3.825         |-0.766667             |-7.02917              |0                   |21.325                     |6.49583                  |0                 |0                                    |
+
+The total sum of squares:	7551
+Within-cluster sum of squares:
+|  |Within cluster S.S.|
+|--|-------------------|
+|C1|2552.77            |
+|C2|1613.51            |
+|C3|45.2076            |
+
+The total within-cluster sum of squares:	4211.49
+
+The between-cluster sum of squares:	3339.51
+
+The ratio of between to total sum of squares:	0.442261
+
+
+
+
+
+
+
+
+2. Graficar el resultado del inciso anterior en un gr´afico de “burbuja”. Repetir este ejercicio para 5 y 10 grupos.
+3. Graficar el resultado del inciso anterior espacialmente. ¿Es posible encontrar alg´un tipo de relaci´on espacial entre datos de los mismos clusters?
+4. Explicar el concepto de inercia o dispersi´on intracluster.
+
+
