@@ -52,64 +52,69 @@ PC3 Humedad_relativa_(%) 0.436318 Velocidad_del_Viento_(km/h) 0.436487
 ![imagen](https://github.com/martinfernandoortiz/geoestadistica_unlp/assets/38224115/6e461725-e495-40b2-9eaa-375ff91cb947)
 
 
-<h4>K-mean cluster</h4>
+<h3>K-mean cluster</h3>
 1. Encontrar la cantidad ´optima de grupos en base a criterio del codo. Considerar que:
 
 total sum of squares = total sum within clusters + between clust
 
-
-<h4>Cluster centers: </h4>
-
-|  |Altura_(m)|Temperatura_(C)|Temperatura_maxima_(C)|Temperatura_minima_(C)|Humedad_relativa_(%)|Velocidad_del_Viento_(km/h)|Nubosidad_total_(octavos)|Precipitacion_(mm)|Frecuencia_dias_Precipitacion_>0.1_mm|
-|--|----------|---------------|----------------------|----------------------|--------------------|---------------------------|-------------------------|------------------|-------------------------------------|
-|C1|226.453   |21.5866        |28.1366               |15.7884               |69.6032             |9.2282                     |3.58779                  |118.262           |8.78663                              |
-|C2|184.434   |10.8605        |16.9758               |5.30107               |72.6719             |12.4409                    |4.13096                  |42.2655           |6.33879                              |
-|C3|814.209   |15.2607        |23.0105               |8.44136               |57.0047             |8.57068                    |3.15236                  |17.7728           |3.39791                              |
-|C4|9.5       |-3.825         |-0.766667             |-7.02917              |0                   |21.325                     |6.49583                  |0                 |0                                    |
-
-The total sum of squares:	7551
-
-Within-cluster sum of squares:
-|  |Within cluster S.S.|
-|--|-------------------|
-|C1|1203.55            |
-|C2|1072.42            |
-|C3|1209.88            |
-|C4|45.2076            |
-
-The total within-cluster sum of squares:	3531.06
-
-The between-cluster sum of squares:	4019.94
-
-The ratio of between to total sum of squares:	0.532372
-
-
-
-<h4> Number of clusters:	3 </h4>
+Method:	KMeans
+Number of clusters:	4
+Initialization method:	KMeans++
+Initialization re-runs:	150
+Maximum iterations:	1000
+Transformation:	Standardize (Z)
+Distance function:	Euclidean
 
 Cluster centers:
 |  |Altura_(m)|Temperatura_(C)|Temperatura_maxima_(C)|Temperatura_minima_(C)|Humedad_relativa_(%)|Velocidad_del_Viento_(km/h)|Nubosidad_total_(octavos)|Precipitacion_(mm)|Frecuencia_dias_Precipitacion_>0.1_mm|
 |--|----------|---------------|----------------------|----------------------|--------------------|---------------------------|-------------------------|------------------|-------------------------------------|
-|C1|439.009   |11.7071        |18.453                |5.74019               |67.1574             |11.2099                    |3.80851                  |31.2544           |5.12411                              |
-|C2|253.28    |21.4766        |28.088                |15.5344               |68.3069             |9.07277                    |3.52697                  |108.735           |8.35954                              |
-|C3|9.5       |-3.825         |-0.766667             |-7.02917              |0                   |21.325                     |6.49583                  |0                 |0                                    |
+|C1|211.658   |21.4903        |28.0239               |15.6673               |69.9879             |9.42596                    |3.44277                  |118.268           |8.74012                              |
+|C2|267.94    |10.5287        |16.8763               |4.9123                |72.0524             |9.37224                    |3.9306                   |37.7413           |5.70315                              |
+|C3|717.781   |17.6658        |25.2219               |10.8774               |52.7516             |8.5871                     |2.82129                  |23.5684           |3.88323                              |
+|C4|604.241   |0.934483       |3.65172               |-2.81724              |0                   |13.6069                    |0                        |0.22069           |0.0586207                            |
 
 The total sum of squares:	7551
 Within-cluster sum of squares:
 |  |Within cluster S.S.|
 |--|-------------------|
-|C1|2552.77            |
-|C2|1613.51            |
-|C3|45.2076            |
+|C1|1158.39            |
+|C2|1216.04            |
+|C3|1034.93            |
+|C4|296.033            |
 
-The total within-cluster sum of squares:	4211.49
-
-The between-cluster sum of squares:	3339.51
-
-The ratio of between to total sum of squares:	0.442261
-
+The total within-cluster sum of squares:	3705.39
+The between-cluster sum of squares:	3845.61
+The ratio of between to total sum of squares:	0.509285
 
 
+
+
+Method:	KMeans
+Number of clusters:	3
+Initialization method:	KMeans++
+Initialization re-runs:	150
+Maximum iterations:	1000
+Transformation:	Standardize (Z)
+Distance function:	Euclidean
+
+Cluster centers:
+|  |Altura_(m)|Temperatura_(C)|Temperatura_maxima_(C)|Temperatura_minima_(C)|Humedad_relativa_(%)|Velocidad_del_Viento_(km/h)|Nubosidad_total_(octavos)|Precipitacion_(mm)|Frecuencia_dias_Precipitacion_>0.1_mm|
+|--|----------|---------------|----------------------|----------------------|--------------------|---------------------------|-------------------------|------------------|-------------------------------------|
+|C1|399.495   |11.7749        |18.4509               |5.86043               |67.5588             |9.27038                    |3.69455                  |32.8507           |5.19242                              |
+|C2|252.756   |21.6016        |28.2212               |15.6793               |67.8368             |9.1785                     |3.34534                  |108.376           |8.2329                               |
+|C3|603.656   |2.52813        |5.79688               |-1.64375              |1.50625             |13.6562                    |0                        |0.63125           |0.165625                             |
+
+The total sum of squares:	7551
+Within-cluster sum of squares:
+|  |Within cluster S.S.|
+|--|-------------------|
+|C1|2302               |
+|C2|1616.03            |
+|C3|362.989            |
+
+The total within-cluster sum of squares:	4281.02
+The between-cluster sum of squares:	3269.98
+The ratio of between to total sum of squares:	0.433053
 
 
 
