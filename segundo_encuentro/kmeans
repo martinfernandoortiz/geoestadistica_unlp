@@ -1,0 +1,30 @@
+Method:	KMeans
+Number of clusters:	5
+Initialization method:	KMeans++
+Initialization re-runs:	150
+Maximum iterations:	1000
+Transformation:	Standardize (Z)
+Distance function:	Euclidean
+
+Cluster centers:
+|  |Temperatura_(C)|Temperatura_maxima_(C)|Temperatura_minima_(C)|Humedad_relativa_(%)|Velocidad_del_Viento_(km/h)|Nubosidad_total_(octavos)|Precipitacion_(mm)|Frecuencia_dias_Precipitacion_>0.1_mm|
+|--|---------------|----------------------|----------------------|--------------------|---------------------------|-------------------------|------------------|-------------------------------------|
+|C1|21.6662        |28.1902               |15.904                |70.0436             |9.36037                    |3.4003                   |120.037           |8.75213                              |
+|C2|10.8005        |16.7474               |5.42653               |73.3801             |13.6276                    |4.03316                  |47.8918           |6.4852                               |
+|C3|11.0946        |18.2311               |4.87844               |67.3551             |3.52874                    |3.59461                  |24.8647           |4.70539                              |
+|C4|19.04          |26.5483               |12.1633               |51.1492             |9.72417                    |2.86917                  |23.32             |3.70917                              |
+|C5|0.934483       |3.65172               |-2.81724              |0                   |13.6069                    |0                        |0.22069           |0.0586207                            |
+
+The total sum of squares:	6712
+Within-cluster sum of squares:
+|  |Within cluster S.S.|
+|--|-------------------|
+|C1|1060.11            |
+|C2|527.518            |
+|C3|489.822            |
+|C4|503.37             |
+|C5|92.2885            |
+
+The total within-cluster sum of squares:	2673.11
+The between-cluster sum of squares:	4038.89
+The ratio of between to total sum of squares:	0.601742
