@@ -1,0 +1,74 @@
+------
+Number of clusters:	3
+Transformation:	Standardize (Z)
+Method:	Single-linkage
+Distance function:	Euclidean
+
+Cluster centers:
+|  |Temperatura_(C)|Temperatura_maxima_(C)|Temperatura_minima_(C)|Humedad_relativa_(%)|Velocidad_del_Viento_(km/h)|Nubosidad_total_(octavos)|Precipitacion_(mm)|Frecuencia_dias_Precipitacion_>0.1_mm|
+|--|---------------|----------------------|----------------------|--------------------|---------------------------|-------------------------|------------------|-------------------------------------|
+|C1|15.9553        |22.4187               |10.0368               |65.4821             |9.40682                    |3.40957                  |65.7243           |6.3689                               |
+|C2|0              |30.7                  |20.55                 |0                   |6.8                        |0                        |202.15            |13                                   |
+|C3|24.75          |30.9                  |20.4                  |0                   |7.15                       |0                        |183.25            |12                                   |
+
+The total sum of squares:	6712
+Within-cluster sum of squares:
+|  |Within cluster S.S.|
+|--|-------------------|
+|C1|6550.19            |
+|C2|0.810162           |
+|C3|0.281691           |
+
+The total within-cluster sum of squares:	6551.28
+The between-cluster sum of squares:	160.722
+The ratio of between to total sum of squares:	0.0239455
+
+------
+Number of clusters:	3
+Transformation:	Standardize (Z)
+Method:	Complete-linkage
+Distance function:	Euclidean
+
+Cluster centers:
+|  |Temperatura_(C)|Temperatura_maxima_(C)|Temperatura_minima_(C)|Humedad_relativa_(%)|Velocidad_del_Viento_(km/h)|Nubosidad_total_(octavos)|Precipitacion_(mm)|Frecuencia_dias_Precipitacion_>0.1_mm|
+|--|---------------|----------------------|----------------------|--------------------|---------------------------|-------------------------|------------------|-------------------------------------|
+|C1|20.9019        |27.3829               |15.0141               |70.7474             |9.44444                    |3.43035                  |115.168           |8.67642                              |
+|C2|15.118         |22.5932               |8.5316                |58.998              |7.7004                     |3.4208                   |21.8              |3.7984                               |
+|C3|8.57828        |14.0842               |3.6181                |62.8403             |11.2303                    |3.30045                  |35.1548           |5.53484                              |
+
+The total sum of squares:	6712
+Within-cluster sum of squares:
+|  |Within cluster S.S.|
+|--|-------------------|
+|C1|1341.13            |
+|C2|992.892            |
+|C3|1894.4             |
+------
+Number of clusters:	3
+Transformation:	Standardize (Z)
+Method:	Average-linkage
+Distance function:	Euclidean
+
+Cluster centers:
+|  |Temperatura_(C)|Temperatura_maxima_(C)|Temperatura_minima_(C)|Humedad_relativa_(%)|Velocidad_del_Viento_(km/h)|Nubosidad_total_(octavos)|Precipitacion_(mm)|Frecuencia_dias_Precipitacion_>0.1_mm|
+|--|---------------|----------------------|----------------------|--------------------|---------------------------|-------------------------|------------------|-------------------------------------|
+|C1|20.9019        |27.3829               |15.0141               |70.7474             |9.44444                    |3.43035                  |115.168           |8.67642                              |
+|C2|15.118         |22.5932               |8.5316                |58.998              |7.7004                     |3.4208                   |21.8              |3.7984                               |
+|C3|8.57828        |14.0842               |3.6181                |62.8403             |11.2303                    |3.30045                  |35.1548           |5.53484                              |
+
+The total sum of squares:	6712
+Within-cluster sum of squares:
+|  |Within cluster S.S.|
+|--|-------------------|
+|C1|1341.13            |
+|C2|992.892            |
+|C3|1894.4             |
+
+The total within-cluster sum of squares:	4228.42
+The between-cluster sum of squares:	2483.58
+The ratio of between to total sum of squares:	0.37002
+
+------
+The total within-cluster sum of squares:	4228.42
+The between-cluster sum of squares:	2483.58
+The ratio of between to total sum of squares:	0.37002
