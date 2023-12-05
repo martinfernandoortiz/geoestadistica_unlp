@@ -17,10 +17,10 @@ Estadística Descriptiva
 PCA, K Means Cluster y Cluster Jerárquico
 
 [Tercer Encuentro](https://github.com/martinfernandoortiz/geoestadistica_unlp/tree/main/tercer_encuentro)
-Interpolaciones
+Interpolaciones + Python
 
 [Cuarto Encuentro]()
-Python
+Interpolaciones + Python
 
 [Quinto Encuentro]()
 
